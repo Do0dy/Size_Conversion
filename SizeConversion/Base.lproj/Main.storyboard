@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3ZL-Uq-3Ji">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="U8Q-sW-B69">
+            <objects>
+                <navigationController id="3ZL-Uq-3Ji" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="5DU-0u-GUz">
+                        <color key="badgeColor" red="0.65686274509999998" green="0.69615137540000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x3c-wz-8YG">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sJi-Dg-Bgb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Wh-dR-ree" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1805" y="1568"/>
+        </scene>
+        <!--Gender View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="GenderID" id="BYZ-38-t0r" customClass="GenderViewController" customModule="SizeConversion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your gender, please." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2L-cu-d2J">
+                                <rect key="frame" x="58.666666666666657" y="211" width="291.33333333333337" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="L5t-Bw-aPd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.34811000631313127" green="0.34811000631313127" blue="0.34811000631313127" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" systemColor="systemGray2Color"/>
+                            </label>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJY-fi-kP0">
+                                <rect key="frame" x="72" y="396" width="93" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="KBl-IP-bQL"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="SeF-Uv-7lw"/>
+                                </constraints>
+                                <color key="tintColor" red="0.78949049804343441" green="0.42843315564902468" blue="0.6147613497159915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Female" subtitle=""/>
+                                <connections>
+                                    <action selector="chooseFemaleSetAndGoNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gCt-4X-oJe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFC-Nh-RYd">
+                                <rect key="frame" x="226" y="396" width="93" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="4qN-3f-uT2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="rG9-ra-5nr"/>
+                                </constraints>
+                                <color key="tintColor" red="0.52361518449596622" green="0.55289679246747447" blue="0.78949049804343441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Male"/>
+                                <connections>
+                                    <action selector="chooseMaleSetAndGoNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="14z-JO-zQL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F2L-cu-d2J" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7OV-ir-rf5"/>
+                            <constraint firstItem="F2L-cu-d2J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="108" id="EJI-yd-Z0y"/>
+                            <constraint firstItem="dFC-Nh-RYd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tJY-fi-kP0" secondAttribute="trailing" constant="8" symbolic="YES" id="Kyx-Gz-9Sn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dFC-Nh-RYd" secondAttribute="trailing" constant="58" id="OrP-an-dTy"/>
+                            <constraint firstItem="tJY-fi-kP0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PoG-Jl-8BI"/>
+                            <constraint firstItem="tJY-fi-kP0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="56" id="cHH-yf-nPu"/>
+                            <constraint firstItem="dFC-Nh-RYd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e0Y-x4-SZY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F2L-cu-d2J" secondAttribute="trailing" constant="27" id="meT-S9-mJe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Fb-nm-qNe">
+                        <barButtonItem key="backBarButtonItem" title="Back to gender page" id="ASh-6S-E6k"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1805.3435114503816" y="2495.7746478873241"/>
+        </scene>
+        <!--Clothes View Controller-->
+        <scene sceneID="HPg-aU-2uU">
+            <objects>
+                <viewController storyboardIdentifier="ClothesID" id="hLU-bo-v4S" customClass="ClothesViewController" customModule="SizeConversion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bV4-7s-nhk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOd-pV-9DJ">
+                                <rect key="frame" x="81.666666666666686" y="244" width="230" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46692364850000001" green="0.49303495250000001" blue="0.70401278410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.46692364850000001" green="0.49303495250000001" blue="0.70401278410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Upper split">
+                                    <color key="baseBackgroundColor" red="0.43112420610000002" green="0.45523353370000003" blue="0.65003551140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="upperSplitSet:" destination="hLU-bo-v4S" eventType="touchUpInside" id="6Q9-vB-Zex"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MT4-Qe-P07">
+                                <rect key="frame" x="81.666666666666686" y="371" width="230" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46731618629999999" green="0.49344944169999999" blue="0.70460464020000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.46692364850000001" green="0.49303495250000001" blue="0.70401278410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Down split">
+                                    <color key="baseBackgroundColor" red="0.43112420610000002" green="0.45523353370000003" blue="0.65003551140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="downSplitSet:" destination="hLU-bo-v4S" eventType="touchUpInside" id="oAN-Mc-dsB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uk-RI-KiX">
+                                <rect key="frame" x="81.666666666666686" y="498" width="230" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46731618629999999" green="0.49344944169999999" blue="0.70460464020000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.46731618629999999" green="0.49344944169999999" blue="0.70460464020000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Shoes">
+                                    <color key="baseBackgroundColor" red="0.43112420610000002" green="0.45523353370000003" blue="0.65003551140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="shoesSet:" destination="hLU-bo-v4S" eventType="touchUpInside" id="Eeq-nO-tF9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3lN-US-WlQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ciA-zb-tdg">
+                        <barButtonItem key="backBarButtonItem" title="Back to clothes split page" id="U3d-yO-tSI"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DYE-wP-QF6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2825" y="3323"/>
+        </scene>
+        <!--Your Size View Controller-->
+        <scene sceneID="JhY-4N-Lm9">
+            <objects>
+                <viewController storyboardIdentifier="ResultID" id="hDE-X3-Bbx" customClass="YourSizeViewController" customModule="SizeConversion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vQB-g0-mE1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ps-U1-vve">
+                                <rect key="frame" x="25" y="301.66666666666669" width="344" height="31.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZ4-h9-dk3">
+                                <rect key="frame" x="0.0" y="763" width="393" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="ayh-wV-YF9"/>
+                                </constraints>
+                                <color key="tintColor" red="0.46731618629999999" green="0.49344944169999999" blue="0.70460464020000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back to home">
+                                    <color key="baseBackgroundColor" red="0.43112420610000002" green="0.45523353370000003" blue="0.65003551140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backToHome:" destination="hDE-X3-Bbx" eventType="touchUpInside" id="8mh-52-kgo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="note: This is an approximate size of your chosen piece, so manufacturing dimensions may vary depending on its design." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuv-BI-Nn0">
+                                <rect key="frame" x="30" y="110.00000000000001" width="333" height="46.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EGa-86-AgI">
+                                <rect key="frame" x="25" y="221.66666666666666" width="195" height="32"/>
+                                <segments>
+                                    <segment title="US Standard"/>
+                                    <segment title="Eu Standard"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.65686274509803932" green="0.69615137542557859" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="swichResult:" destination="hDE-X3-Bbx" eventType="valueChanged" id="rRC-sU-8Ei"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pBV-iN-afr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EGa-86-AgI" firstAttribute="top" secondItem="yuv-BI-Nn0" secondAttribute="bottom" constant="65" id="5WQ-o7-Pv7"/>
+                            <constraint firstItem="pBV-iN-afr" firstAttribute="trailing" secondItem="EGa-86-AgI" secondAttribute="trailing" constant="173" id="A4d-lj-ILB"/>
+                            <constraint firstItem="pBV-iN-afr" firstAttribute="trailing" secondItem="0ps-U1-vve" secondAttribute="trailing" constant="24" id="Ffx-vq-5ve"/>
+                            <constraint firstItem="lZ4-h9-dk3" firstAttribute="trailing" secondItem="pBV-iN-afr" secondAttribute="trailing" id="IOP-Xd-Org"/>
+                            <constraint firstItem="yuv-BI-Nn0" firstAttribute="top" secondItem="pBV-iN-afr" secondAttribute="top" constant="51" id="K0i-Ra-gxW"/>
+                            <constraint firstItem="0ps-U1-vve" firstAttribute="top" secondItem="yuv-BI-Nn0" secondAttribute="bottom" constant="145" id="MCr-F3-M2P"/>
+                            <constraint firstItem="yuv-BI-Nn0" firstAttribute="leading" secondItem="pBV-iN-afr" secondAttribute="leading" constant="30" id="SP0-Jq-fBL"/>
+                            <constraint firstItem="0ps-U1-vve" firstAttribute="leading" secondItem="pBV-iN-afr" secondAttribute="leading" constant="25" id="VgT-cf-rAV"/>
+                            <constraint firstItem="pBV-iN-afr" firstAttribute="trailing" secondItem="yuv-BI-Nn0" secondAttribute="trailing" constant="30" id="giF-AF-v3y"/>
+                            <constraint firstItem="lZ4-h9-dk3" firstAttribute="centerX" secondItem="vQB-g0-mE1" secondAttribute="centerX" id="ilF-0M-omh"/>
+                            <constraint firstItem="EGa-86-AgI" firstAttribute="leading" secondItem="pBV-iN-afr" secondAttribute="leading" constant="25" id="m7U-9g-pk2"/>
+                            <constraint firstItem="lZ4-h9-dk3" firstAttribute="bottom" secondItem="pBV-iN-afr" secondAttribute="bottom" id="odx-F9-lt6"/>
+                            <constraint firstItem="yuv-BI-Nn0" firstAttribute="centerX" secondItem="vQB-g0-mE1" secondAttribute="centerX" id="sCa-Ym-3E5"/>
+                            <constraint firstItem="lZ4-h9-dk3" firstAttribute="leading" secondItem="pBV-iN-afr" secondAttribute="leading" id="ufR-b8-L7r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resulrsView" destination="EGa-86-AgI" id="EPv-GV-dn1"/>
+                        <outlet property="resultText" destination="0ps-U1-vve" id="0UG-7B-Ft9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t40-XJ-3XV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602.29007633587787" y="3306.3380281690143"/>
+        </scene>
+        <!--Body Size View Controller-->
+        <scene sceneID="Nfx-KN-46C">
+            <objects>
+                <viewController storyboardIdentifier="SizesID" id="gta-6e-3iO" customClass="BodySizeViewController" customModule="SizeConversion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5jQ-Wg-D3h">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aaY-ci-2sb">
+                                <rect key="frame" x="16" y="180" width="112" height="32"/>
+                                <segments>
+                                    <segment title="cm"/>
+                                    <segment title="in" enabled="NO"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="5mf-P5-W1P">
+                                <rect key="frame" x="30" y="312" width="332" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="MVR-h2-o6p">
+                                <rect key="frame" x="30" y="423" width="332" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUH-Bx-Tf8">
+                                <rect key="frame" x="0.0" y="748" width="393" height="55"/>
+                                <color key="backgroundColor" red="0.46692364850000001" green="0.49303495250000001" blue="0.70401278410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Pvx-Cd-yW6"/>
+                                </constraints>
+                                <color key="tintColor" red="0.46731618629999999" green="0.49344944169999999" blue="0.70460464020000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get the result">
+                                    <color key="baseBackgroundColor" red="0.46692364850000001" green="0.49303495250000001" blue="0.70401278410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getTheResult:" destination="gta-6e-3iO" eventType="touchUpInside" id="QDy-IQ-5Jd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KIS-jV-OPV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MVR-h2-o6p" firstAttribute="top" secondItem="5mf-P5-W1P" secondAttribute="bottom" constant="77" id="5w3-Dp-O6r"/>
+                            <constraint firstAttribute="trailing" secondItem="GUH-Bx-Tf8" secondAttribute="trailing" id="Br8-xa-in4"/>
+                            <constraint firstItem="aaY-ci-2sb" firstAttribute="leading" secondItem="5jQ-Wg-D3h" secondAttribute="leadingMargin" id="J6J-J4-GBW"/>
+                            <constraint firstItem="KIS-jV-OPV" firstAttribute="bottom" secondItem="GUH-Bx-Tf8" secondAttribute="bottom" constant="15" id="Ufw-Nc-9bC"/>
+                            <constraint firstItem="GUH-Bx-Tf8" firstAttribute="leading" secondItem="5jQ-Wg-D3h" secondAttribute="leading" id="Weq-oN-rA5"/>
+                            <constraint firstItem="KIS-jV-OPV" firstAttribute="trailing" secondItem="aaY-ci-2sb" secondAttribute="trailing" constant="265" id="XtL-gb-orW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MVR-h2-o6p" secondAttribute="trailing" constant="15" id="c8O-sa-uXy"/>
+                            <constraint firstItem="aaY-ci-2sb" firstAttribute="top" secondItem="KIS-jV-OPV" secondAttribute="top" constant="121" id="ePh-zH-rKZ"/>
+                            <constraint firstItem="5mf-P5-W1P" firstAttribute="top" secondItem="5jQ-Wg-D3h" secondAttribute="topMargin" constant="253" id="enl-8g-PhQ"/>
+                            <constraint firstItem="MVR-h2-o6p" firstAttribute="leading" secondItem="5jQ-Wg-D3h" secondAttribute="leadingMargin" constant="14" id="gNn-Ic-ufu"/>
+                            <constraint firstItem="5mf-P5-W1P" firstAttribute="leading" secondItem="5jQ-Wg-D3h" secondAttribute="leadingMargin" constant="14" id="ssQ-hK-AMJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5mf-P5-W1P" secondAttribute="trailing" constant="15" id="xAD-ii-YwP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fnl-CO-8G7" userLabel="sizeInfo">
+                        <barButtonItem key="rightBarButtonItem" title="howToSizeYourBody" image="info.circle" catalog="system" id="DTe-xk-PCp">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="howToSizeYourBody:" destination="gta-6e-3iO" id="Bo4-Vb-Ta9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="input1" destination="5mf-P5-W1P" id="65u-WK-X7o"/>
+                        <outlet property="input2" destination="MVR-h2-o6p" id="7W6-aG-Igy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Xl-9N-msZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1750" y="3323"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

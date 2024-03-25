@@ -1,0 +1,196 @@
+{
+    "sizeStandards": [
+        {"theUnit": "US",
+        "male":{
+            "upperSplit": {
+                "xxs": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
+                "xs": {"chest": {"from":76, "to": 81},"waist": {"from": 67, "to": 70 }, "usSize": ""},
+                "s": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
+                "sm": {"chest": {"from": 86 , "to": 92},"waist": {"from": 72, "to": 76},"usSize": ""},
+                "m": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
+                "md": {"chest": {"from": 96 , "to": 102},"waist": {"from": 77, "to": 85},"usSize": ""},
+                "l": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
+                "lg": {"chest": {"from": 106 , "to": 112},"waist": {"from": 89, "to": 94},"usSize": ""},
+                "xl": {"chest": {"from": 116 , "to": 122},"waist": {"from": 99, "to": 104},"usSize": ""},
+                "xxl": {"chest": {"from": 127 , "to": 132},"waist": {"from": 109, "to": 116},"usSize": ""},
+                "xxxl": {"chest": {"from": 137 , "to": 142},"waist": {"from": 121, "to": 127},"usSize": ""},
+                "xxxxl": {"chest": {"from": 147 , "to": 153},"waist": {"from": 132, "to": 138},"usSize": ""},
+                "xxxxxl": {"chest": {"from": 157 , "to": 163},"waist": {"from": 144, "to": 150},"usSize": ""}
+            },
+            "downSplit": {
+                "xs": {"waist": {"from":67, "to": 70},"hip": {"from": 81, "to": 84 }, "usSize": "26 - 27"},
+                "s": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "usSize": ""},
+                "sm": {"waist": {"from": 72, "to": 76},"hip": {"from": 86, "to": 90},"usSize": "28 - 29"},
+                "m": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "usSize": ""},
+                "md": {"waist": {"from": 80, "to": 85},"hip": {"from": 94, "to": 98},"usSize": "30 - 32"},
+                "l": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "usSize": ""},
+                "lg": {"waist": {"from": 89, "to": 94},"hip": {"from": 102, "to": 107},"usSize": "34 - 36"},
+                "xl": {"waist": {"from": 99, "to": 104},"hip": {"from": 112, "to": 117},"usSize": "38 - 40"},
+                "xxl": {"waist": {"from": 109, "to": 116},"hip": {"from": 122, "to": 127},"usSize": "42 - 44"},
+                "xxxl": {"waist": {"from": 121, "to": 127},"hip": {"from": 132, "to": 137},"usSize": "46 - 48"},
+                "xxxxl": {"waist": {"from": 132, "to": 138},"hip": {"from": 142, "to": 147},"usSize": "50 - 52"},
+                "xxxxxl": {"waist": {"from": 144, "to": 150},"hip": {"from": 152, "to": 157},"usSize": "54 - 56"}
+            },
+            "shoes": {
+                "the25cm": {"sizeInCM": 25,"usSize": "7"},
+                "the25AndHalfcm": {"sizeInCM": 25.5,"usSize": "7.5"},
+                "the26cm": {"sizeInCM": 26,"usSize": "8"},
+                "the26AndHalfcm": {"sizeInCM": 26.5,"usSize": "8.5"},
+                "the27cm": {"sizeInCM": 27,"usSize": "9"},
+                "the27AndHalfcm": {"sizeInCM": 27.5,"usSize": "9.5"},
+                "the28cm": {"sizeInCM": 28,"usSize": "10"},
+                "the28AndHalfcm": {"sizeInCM": 28.5,"usSize": "10.5"},
+                "the29cm": {"sizeInCM": 29,"usSize": "11"},
+                "the29AndHalfcm": {"sizeInCM": 29.5,"usSize": "11.5"},
+                "the30cm": {"sizeInCM": 30,"usSize": "12"},
+                "the30AndHalfcm": {"sizeInCM": 30.5,"usSize": "12.5"},
+                "the31cm": {"sizeInCM": 31,"usSize": "13"},
+                "the31AndHalfcm": {"sizeInCM": 31.5,"usSize": "13.5"},
+                "the32cm": {"sizeInCM": 32,"usSize": "14"},
+                "the32AndHalfcm": {"sizeInCM": 32.5,"usSize": "14.5"},
+                "the33cm": {"sizeInCM": 33,"usSize": "15"},
+                "the33AndHalfcm": {"sizeInCM": 33.5,"usSize": "15.5"},
+                "the34cm": {"sizeInCM": 34,"usSize": "16"}
+            }
+        },
+        "female":{
+            "upperSplit": {
+                "xxs": {"chest": {"from": 79, "to": 83},"waist": {"from": 62, "to": 65},"usSize": "00" },
+                "xs": {"chest": {"from": 83, "to": 85},"waist": {"from": 65 , "to": 68},"usSize": "0 - 2" },
+                "s": {"chest": {"from": 85, "to": 91},"waist": {"from": 68 , "to": 74},"usSize": "4 - 6" },
+                "m": {"chest": {"from": 91, "to": 96},"waist": {"from": 74 , "to": 79},"usSize": "8 - 10" },
+                "l": {"chest": {"from": 96, "to": 104},"waist": {"from": 80 , "to": 86},"usSize": "12 - 14" },
+                "xl": {"chest": {"from": 104, "to": 112},"waist": {"from": 86 , "to": 94},"usSize": "16" },
+                "xxl": {"chest": {"from": 112, "to": 119},"waist": {"from": 94 , "to": 102},"usSize": "18" },
+                "xxxl": {"chest": {"from": 119, "to": 127},"waist": {"from": 102 , "to": 109},"usSize": "20" }
+            },
+            "downSplit": {
+                "xs": {"waist": {"from":70, "to": 72},"hip": {"from": 93, "to": 95 }, "usSize": "0 - 2"},
+                "s": {"waist": {"from": 0 , "to": 0},"hip": {"from": 0, "to": 0},"usSize": ""},
+                "sm": {"waist": {"from": 73, "to": 75},"hip": {"from": 95, "to": 98},"usSize": "4 - 6"},
+                "m": {"waist": {"from": 0 , "to": 0},"hip": {"from": 0, "to": 0},"usSize": ""},
+                "md": {"waist": {"from": 75, "to": 77},"hip": {"from": 98, "to": 100},"usSize": "8 - 10"},
+                "l": {"waist": {"from": 0 , "to": 0},"hip": {"from": 0, "to": 0},"usSize": ""},
+                "lg": {"waist": {"from": 81, "to": 85},"hip": {"from": 104, "to": 108},"usSize": "12 - 14"},
+                "xl": {"waist": {"from": 89, "to": 93},"hip": {"from": 112, "to": 116},"usSize": "16"},
+                "xxl": {"waist": {"from": 97, "to": 100},"hip": {"from": 119, "to": 123},"usSize": "18"}
+            },
+            "shoes": {
+                "the22cm": {"sizeInCM": 22,"usSize": "5"},
+                "the22AndHalfcm": {"sizeInCM": 22.5,"usSize": "5.5"},
+                "the23cm": {"sizeInCM": 23,"usSize": "6"},
+                "the23AndHalfcm": {"sizeInCM": 23.5,"usSize": "6.5"},
+                "the24cm": {"sizeInCM": 24,"usSize": "7"},
+                "the24AndHalfcm": {"sizeInCM": 24.5,"usSize": "7.5"},
+                "the25cm": {"sizeInCM": 25,"usSize": "8"},
+                "the25AndHalfcm": {"sizeInCM": 25.5,"usSize": "8.5"},
+                "the26cm": {"sizeInCM": 26,"usSize": "9"},
+                "the26AndHalfcm": {"sizeInCM": 26.5,"usSize": "9.5"},
+                "the27cm": {"sizeInCM": 27,"usSize": "10"},
+                "the27AndHalfcm": {"sizeInCM": 27.5,"usSize": "10.5"},
+                "the28cm": {"sizeInCM": 28,"usSize": "11"},
+                "the28AndHalfcm": {"sizeInCM": 28.5,"usSize": "11.5"},
+                "the29cm": {"sizeInCM": 29,"usSize": "12"}
+                
+            }
+        }
+          
+        },
+       
+        {"theUnit": "EU",
+        "male":{
+            "upperSplit": {
+                "xxs": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""},
+                "xs": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""},
+                "s": {"chest": {"from":92, "to": 96},"waist": {"from": 74, "to": 79 }, "euSize": "44 - 46"},
+                "sm": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""},
+                "m": {"chest": {"from": 100 , "to": 104},"waist": {"from": 84, "to": 89},"euSize": "48 - 50"},
+                "md": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""},
+                "l": {"chest": {"from": 108 , "to": 112},"waist": {"from": 94, "to": 99},"euSize": "52 - 54"},
+                "lg": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""},
+                "xl": {"chest": {"from": 116 , "to": 121},"waist": {"from": 104, "to": 109},"euSize": "56 - 58"},
+                "xxl": {"chest": {"from": 125 , "to": 129},"waist": {"from": 114, "to": 119},"euSize": "60 - 62"},
+                "xxxl": {"chest": {"from": 134 , "to": 138},"waist": {"from": 124, "to": 130},"euSize": "64 - 66"},
+                "xxxxl": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""},
+                "xxxxxl": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "euSize": ""}
+            },
+            "downSplit": {
+                "xs": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "euSize": ""},
+                "s": {"waist": {"from": 74, "to": 79 } ,"hip": {"from": 99, "to": 102 }, "euSize": "44 - 46"},
+                "sm": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "euSize": ""},
+                "m": {"waist": {"from": 84, "to": 89},"hip": {"from": 104, "to": 107},"euSize": "48 - 50"},
+                "md": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "euSize": ""},
+                "l": {"waist": {"from": 94, "to": 99},"hip": {"from": 112, "to": 117},"euSize": "52 - 54"},
+                "lg": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "euSize": ""},
+                "xl": {"waist": {"from": 104, "to": 109},"hip": {"from": 122, "to": 127},"euSize": "56 - 58"},
+                "xxl": {"waist": {"from": 114, "to": 119},"hip": {"from": 132, "to": 137},"euSize": "60 - 62"},
+                "xxxl": {"waist": {"from": 124, "to": 130},"hip": {"from": 142, "to": 145},"euSize": "64 - 66"},
+                "xxxxl": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "euSize": ""},
+                "xxxxxl": {"waist": {"from":0, "to": 0},"hip": {"from": 0, "to": 0 }, "euSize": ""}
+            },
+            "shoes": {
+                "the25cm": {"sizeInCM": 25,"euSize": "40"},
+                "the25AndHalfcm": {"sizeInCM": 25.5,"euSize": "40.5"},
+                "the26cm": {"sizeInCM": 26,"euSize": "41"},
+                "the26AndHalfcm": {"sizeInCM": 26.5,"euSize": "42"},
+                "the27cm": {"sizeInCM": 27,"euSize": "42.5"},
+                "the27AndHalfcm": {"sizeInCM": 27.5,"euSize": "43"},
+                "the28cm": {"sizeInCM": 28,"euSize": "44"},
+                "the28AndHalfcm": {"sizeInCM": 28.5,"euSize": "44.5"},
+                "the29cm": {"sizeInCM": 29,"euSize": "45"},
+                "the29AndHalfcm": {"sizeInCM": 29.5,"euSize": "45.5"},
+                "the30cm": {"sizeInCM": 30,"euSize": "46"},
+                "the30AndHalfcm": {"sizeInCM": 30.5,"euSize": "47"},
+                "the31cm": {"sizeInCM": 31,"euSize": "47.5"},
+                "the31AndHalfcm": {"sizeInCM": 31.5,"euSize": "48"},
+                "the32cm": {"sizeInCM": 32,"euSize": "48.5"},
+                "the32AndHalfcm": {"sizeInCM": 32.5,"euSize": "49"},
+                "the33cm": {"sizeInCM": 33,"euSize": "49.5"},
+                "the33AndHalfcm": {"sizeInCM": 33.5,"euSize": "50"},
+                "the34cm": {"sizeInCM": 34,"euSize": "50.5"}
+            }
+        },
+        "female":{
+            "upperSplit": {
+                "xxs": {"chest": {"from": 0, "to": 0},"waist": {"from": 0 , "to": 0},"euSize": "" },
+                "xs": {"chest": {"from": 80, "to": 84},"waist": {"from": 60 , "to": 64},"euSize": "34" },
+                "s": {"chest": {"from": 85, "to": 88},"waist": {"from": 65 , "to": 68},"euSize": "36" },
+                "m": {"chest": {"from": 89, "to": 95},"waist": {"from": 69 , "to": 75},"euSize": "38" },
+                "l": {"chest": {"from": 96, "to": 100},"waist": {"from": 76 , "to": 80},"euSize": "40 - 42" },
+                "xl": {"chest": {"from": 101, "to": 107},"waist": {"from": 81 , "to": 87},"euSize": "42 - 44" },
+                "xxl": {"chest": {"from": 108, "to": 112},"waist": {"from": 88 , "to": 92},"euSize": "46 - 48" },
+                "xxxl": {"chest": {"from": 0, "to": 0},"waist": {"from": 0 , "to": 0},"euSize": "" }
+            },
+            "downSplit": {
+                "xs": {"waist": {"from": 60 , "to": 64},"hip": {"from": 88, "to": 92 }, "euSize": "34"},
+                "s": {"waist": {"from": 64 , "to": 68},"hip": {"from": 92, "to": 96},"euSize": "36"},
+                "sm": {"waist": {"from": 0 , "to": 0},"hip": {"from": 0, "to": 0},"euSize": ""},
+                "m": {"waist": {"from": 68 , "to": 72},"hip": {"from": 96, "to": 100},"euSize": "38"},
+                "md": {"waist": {"from": 0 , "to": 0},"hip": {"from": 0, "to": 0},"euSize": ""},
+                "l": {"waist": {"from": 76 , "to": 80},"hip": {"from": 104, "to": 108},"euSize": "40 - 42"},
+                "lg": {"waist": {"from": 0 , "to": 0},"hip": {"from": 0, "to": 0},"euSize": ""},
+                "xl": {"waist": {"from": 80 , "to": 84},"hip": {"from": 108, "to": 112},"euSize": "42 - 44"},
+                "xxl": {"waist": {"from": 88 , "to": 92},"hip": {"from": 116, "to": 120},"euSize": "46 - 48"}
+            },
+            "shoes": {
+                "the22cm": {"sizeInCM": 22,"euSize": "35.5"},
+                "the22AndHalfcm": {"sizeInCM": 22.5,"euSize": "36"},
+                "the23cm": {"sizeInCM": 23,"euSize": "36.5"},
+                "the23AndHalfcm": {"sizeInCM": 23.5,"euSize": "37.5"},
+                "the24cm": {"sizeInCM": 24,"euSize": "38"},
+                "the24AndHalfcm": {"sizeInCM": 24.5,"euSize": "38.5"},
+                "the25cm": {"sizeInCM": 25,"euSize": "39"},
+                "the25AndHalfcm": {"sizeInCM": 25.5,"euSize": "40"},
+                "the26cm": {"sizeInCM": 26,"euSize": "40.5"},
+                "the26AndHalfcm": {"sizeInCM": 26.5,"euSize": "41"},
+                "the27cm": {"sizeInCM": 27,"euSize": "42"},
+                "the27AndHalfcm": {"sizeInCM": 27.5,"euSize": "42.5"},
+                "the28cm": {"sizeInCM": 28,"euSize": "43"},
+                "the28AndHalfcm": {"sizeInCM": 28.5,"euSize": "44"},
+                "the29cm": {"sizeInCM": 29,"euSize": "44.5"}
+                
+            }
+        }
+    }
+    ]
+}

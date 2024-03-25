@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0AA4802B-680A-4EE5-8031-8CA5ED500433"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DAE1EA0-E64F-43DD-B3E8-3F799AC661B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/Helper/CallTheData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "CallTheData"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7DAE1EA0-E64F-43DD-B3E8-3F799AC661B6 - 7d5c1dea9d40a24e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.CallTheData.readJSONFile(completion: (SizeConversion.SizeModel) -&gt; ()) -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/Helper/CallTheData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1216">
+               </Location>
+               <Location
+                  uuid = "7DAE1EA0-E64F-43DD-B3E8-3F799AC661B6 - 7d5c1dea9d40a271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.CallTheData.readJSONFile(completion: (SizeConversion.SizeModel) -&gt; ()) -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/Helper/CallTheData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18D57882-5604-40F4-BEF0-5AA6A7A8C62C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/Helper/CallTheData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "CallTheData"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEF8C7B5-E89E-4140-8973-AD08367DDFAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/Helper/CallTheData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "readJSONFile(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7421CDC0-0DB0-41C2-B547-2DE309DBA630"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/Helper/CallTheData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "readJSONFile(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7421CDC0-0DB0-41C2-B547-2DE309DBA630 - 637349c3ddcea864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.CallTheData.readJSONFile(completion: (Swift.Optional&lt;SizeConversion.SizeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/Helper/CallTheData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+               <Location
+                  uuid = "7421CDC0-0DB0-41C2-B547-2DE309DBA630 - 637349c3ddcea864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.CallTheData.readJSONFile(completion: (Swift.Optional&lt;SizeConversion.SizeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/Helper/CallTheData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+               <Location
+                  uuid = "7421CDC0-0DB0-41C2-B547-2DE309DBA630 - 637349c3ddcea864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.CallTheData.readJSONFile(completion: (Swift.Optional&lt;SizeConversion.SizeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/Helper/CallTheData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "2552">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BD0787E-9694-4C0D-AC9C-2FF6A2981291"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(setGender:setType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD8E592A-11CC-45AE-AD8D-32373AFB263F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "setSplitData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD8E592A-11CC-45AE-AD8D-32373AFB263F - 4c4b2dd5b3588361"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.setSplitData() -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "6852">
+               </Location>
+               <Location
+                  uuid = "AD8E592A-11CC-45AE-AD8D-32373AFB263F - 4c4b2dd5b3588361"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.setSplitData() -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "6788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9A87848-697E-42CB-B9B0-573A08FC5392"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "setSplitData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAA51509-920C-4F9F-9A5A-E519B5A300F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "setSplitData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CAA51509-920C-4F9F-9A5A-E519B5A300F1 - 4c4b2dd5b3589d71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.setSplitData() -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "198428">
+               </Location>
+               <Location
+                  uuid = "CAA51509-920C-4F9F-9A5A-E519B5A300F1 - 4c4b2dd5b3589d33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.setSplitData() -&gt; ()"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "171752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CF5AD9C-81BF-4AE5-A5E0-34971D7CBAB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "theApproximateSizeForUpperSplit(theChest:theWaist:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F852DC2-C6B5-486E-858E-ED55CDA97FC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "theApproximateSizeForDownSplit(theWaist:theHip:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F852DC2-C6B5-486E-858E-ED55CDA97FC1 - a3bd62a35e8e4eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "2028">
+               </Location>
+               <Location
+                  uuid = "9F852DC2-C6B5-486E-858E-ED55CDA97FC1 - a3bd62a35e8e494b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "2048">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EAA208D-DB1C-4E1D-9401-24565295C922"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "theApproximateSizeForDownSplit(theWaist:theHip:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EAA208D-DB1C-4E1D-9401-24565295C922 - a3bd62a35e8e48c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "17908">
+               </Location>
+               <Location
+                  uuid = "4EAA208D-DB1C-4E1D-9401-24565295C922 - a3bd62a35e8e48c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "17852">
+               </Location>
+               <Location
+                  uuid = "4EAA208D-DB1C-4E1D-9401-24565295C922 - a3bd62a35e8e48c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "16572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E42937C-1B37-4381-BFA3-21F2E2134560"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "theApproximateSizeForDownSplit(theWaist:theHip:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E42937C-1B37-4381-BFA3-21F2E2134560 - a3bd62a35e8e49ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "15492">
+               </Location>
+               <Location
+                  uuid = "8E42937C-1B37-4381-BFA3-21F2E2134560 - a3bd62a35e8e49ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "15964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C10BD88-DB2A-4C14-91F1-BB2CD73EAA7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "theApproximateSizeForDownSplit(theWaist:theHip:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C821511-0332-4A3C-B970-93E10F6642F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SizeConversion/BodySize/BodySizeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "theApproximateSizeForDownSplit(theWaist:theHip:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C821511-0332-4A3C-B970-93E10F6642F2 - a3bd62a35e8e498d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "15988">
+               </Location>
+               <Location
+                  uuid = "5C821511-0332-4A3C-B970-93E10F6642F2 - a3bd62a35e8e498d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SizeConversion.BodySizeViewModel.theApproximateSizeForDownSplit(theWaist: Swift.Int, theHip: Swift.Int) -&gt; Swift.Optional&lt;(usSize: Swift.Optional&lt;Swift.String&gt;, euSize: Swift.Optional&lt;Swift.String&gt;)&gt;"
+                  moduleName = "SizeConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dody/Desktop/SizeConversion/SizeConversion/BodySize/BodySizeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "14708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
