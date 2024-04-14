@@ -297,7 +297,6 @@
 			);
 			mainGroup = C2EFE56C2BB2145F00452510;
 			packageReferences = (
-				C267EAFC2BCC2EF4008DFDB7 /* XCRemoteSwiftPackageReference "PMAlertController" */,
 			);
 			productRefGroup = C2EFE5762BB2145F00452510 /* Products */;
 			projectDirPath = "";
@@ -702,17 +701,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		C267EAFC2BCC2EF4008DFDB7 /* XCRemoteSwiftPackageReference "PMAlertController" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pmusolino/PMAlertController";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = C2EFE56D2BB2145F00452510 /* Project object */;
 }

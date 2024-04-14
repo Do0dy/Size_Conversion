@@ -11,10 +11,8 @@ import Foundation
 class YourSizeViewModel{
     
     var theResult: (usSize: String?, euSize: String?)?
-    //var theSplit: String!
     
     init(resultSizes: (usSize: String?, euSize: String?)?){
         self.theResult = resultSizes
-        //self.theSplit = theSplit
     }
 }

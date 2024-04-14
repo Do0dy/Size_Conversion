@@ -33,7 +33,7 @@ class BodySizeViewModel{
         callData()
         
     }
-    
+    // to get the data
     func callData() {
             DispatchQueue.main.async {
                 self.api.readJSONFile { SizeModel in

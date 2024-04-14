@@ -9,7 +9,7 @@ class ClothesViewController: UIViewController {
         super.viewDidLoad()
         setImageBackground()
     }
-    
+    // to send what the split is chose
     @IBAction func upperSplitSet(_ sender: Any) {
         self.pushToNext(setGender: self.viewModel.theGender, setType: "upperSplit")
     }

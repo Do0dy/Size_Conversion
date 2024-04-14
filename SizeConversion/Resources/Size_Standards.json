@@ -4,18 +4,18 @@
         "male":{
             "upperSplit": {
                 "xxs": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
-                "xs": {"chest": {"from":76, "to": 81},"waist": {"from": 67, "to": 70 }, "usSize": ""},
+                "xs": {"chest": {"from":76, "to": 81},"waist": {"from": 67, "to": 70 }, "usSize": "20 - 22"},
                 "s": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
-                "sm": {"chest": {"from": 86 , "to": 92},"waist": {"from": 72, "to": 76},"usSize": ""},
+                "sm": {"chest": {"from": 86 , "to": 92},"waist": {"from": 72, "to": 76},"usSize": "23 - 24"},
                 "m": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
-                "md": {"chest": {"from": 96 , "to": 102},"waist": {"from": 77, "to": 85},"usSize": ""},
+                "md": {"chest": {"from": 96 , "to": 102},"waist": {"from": 77, "to": 85},"usSize": "25 - 26"},
                 "l": {"chest": {"from":0, "to": 0},"waist": {"from": 0, "to": 0 }, "usSize": ""},
-                "lg": {"chest": {"from": 106 , "to": 112},"waist": {"from": 89, "to": 94},"usSize": ""},
-                "xl": {"chest": {"from": 116 , "to": 122},"waist": {"from": 99, "to": 104},"usSize": ""},
-                "xxl": {"chest": {"from": 127 , "to": 132},"waist": {"from": 109, "to": 116},"usSize": ""},
-                "xxxl": {"chest": {"from": 137 , "to": 142},"waist": {"from": 121, "to": 127},"usSize": ""},
-                "xxxxl": {"chest": {"from": 147 , "to": 153},"waist": {"from": 132, "to": 138},"usSize": ""},
-                "xxxxxl": {"chest": {"from": 157 , "to": 163},"waist": {"from": 144, "to": 150},"usSize": ""}
+                "lg": {"chest": {"from": 106 , "to": 112},"waist": {"from": 89, "to": 94},"usSize": "26 - 28"},
+                "xl": {"chest": {"from": 116 , "to": 122},"waist": {"from": 99, "to": 104},"usSize": "29"},
+                "xxl": {"chest": {"from": 127 , "to": 132},"waist": {"from": 109, "to": 116},"usSize": "30"},
+                "xxxl": {"chest": {"from": 137 , "to": 142},"waist": {"from": 121, "to": 127},"usSize": "34"},
+                "xxxxl": {"chest": {"from": 147 , "to": 153},"waist": {"from": 132, "to": 138},"usSize": "36"},
+                "xxxxxl": {"chest": {"from": 157 , "to": 163},"waist": {"from": 144, "to": 150},"usSize": "38"}
             },
             "downSplit": {
                 "xs": {"waist": {"from":67, "to": 70},"hip": {"from": 81, "to": 84 }, "usSize": "26 - 27"},

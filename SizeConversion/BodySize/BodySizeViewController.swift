@@ -23,7 +23,6 @@ class BodySizeViewController: UIViewController {
         print(self.viewModel.theSplit!)
         setImageBackground()
         self.sendToProfile = profileDataModel()
-        //let tabbar = tabBarController as! homeTabBarViewController
         switch(self.viewModel.theSplit){
         case "upperSplit":
             self.input1.placeholder = "Enter the chest size"
@@ -41,16 +40,13 @@ class BodySizeViewController: UIViewController {
     }
     
     func getSizeResult() -> (usSize: String?, euSize: String?)?{
-        //UserDefaults.standard.setValue(self.viewModel.theGender, forKey: "theGender")
 
         if self.input1.text != ""{
             switch(self.viewModel.theSplit){
             case "upperSplit":
                 let upperSplitSize = self.viewModel.theApproximateSizeForUpperSplit(theChest: Int(self.input1.text!)!, theWaist: Int(self.input2.text!)!)
                 
-                //let upArr = [upperSplitSize?.usSize,upperSplitSize?.euSize]
-               // UserDefaults.standard.setValue(upArr, forKey: "upperSplitSize")
-                return upperSplitSize
+               return upperSplitSize
                 
             case "downSplit":
                 self.input1.placeholder = "Enter the waist size"
@@ -64,8 +60,6 @@ class BodySizeViewController: UIViewController {
                 self.input2.isHidden = true
                 let shoesSize = self.viewModel.theApproximateSizeForShoes(theLengthOfHeel: Double(self.input1.text!)!)
 
-                //let shoArr = [shoesSize?.usSize,shoesSize?.euSize]
-                //UserDefaults.standard.setValue(shoArr, forKey: "shoesSize")
                 
                 return shoesSize
 

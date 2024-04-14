@@ -35,10 +35,6 @@ class YourSizeViewController: UIViewController {
     }
     
     @IBAction func backToHome(_ sender: Any) {
-//        let storyboard = UIStoryboard.init(name: "Main", bundle: .main)
-//        let sendResult = storyboard.instantiateViewController(withIdentifier: "ProfileID") as! ProfileViewController
-//        navigationController?.pushViewController(sendResult, animated: true)
-//        
        navigationController?.popToRootViewController(animated: true)
     }
     
